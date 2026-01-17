@@ -1,5 +1,30 @@
+nav {
+    background-color: #004a7c;
+    /* Choose any color you like */
+    padding: 1rem;
+}
+
+nav a {
+    color: white;
+    padding: 0.5rem;
+    display: block;
+}
+
 main {
     max-width: 840px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #004a7c;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid #333;
+    padding: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 aside {
@@ -15,15 +40,6 @@ aside {
 aside img {
     width: 200px;
     height: auto;
-}
-
-main img {
-    width: 150px;
-    height: auto;
-}
-
-p {
-    padding: 0;
 }
 
 footer {
