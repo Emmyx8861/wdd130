@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -41,37 +41,73 @@ main img {
     padding: 5px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     float: right;
-    margin-left: 1rem; 
+    margin-left: 1rem;
 
-aside {
-    width: 20rem;
-    text-align: center;
-    position: relative; 
+    aside {
+        width: 20rem;
+        text-align: center;
+        position: relative;
+    }
+
+    aside h2 {
+        position: absolute;
+        top: 20px;
+        /* Adjust based on your image */
+        left: 50px;
+        /* Adjust based on your image */
+        background-color: rgba(255, 255, 255, 0.8);
+        /* Added for readability */
+        padding: 5px;
+    }
+
+    aside img {
+        width: 200px;
+        height: auto;
+    }
+
+    footer {
+        margin-top: 15px;
+        border-top: 1px solid #000;
+        text-align: center;
+    }
+
+    .box {
+        margin: 1rem;
+        border: 1px solid var(--border-color);
+        padding: 1rem;
+        background-color: #ddd;
+        color: #000;
+    }
+
+    .hero {
+        position: relative;
+    }
+
+    .hero h1 {
+        position: absolute;
+        top: 20px;
+        width: 100%;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+    }
+
+    .hero article {
+        position: absolute;
+        top: 150px;
+        left: 20px;
+        right: 20px;
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+    }
+
+    .hero article img {
+        float: right;
+        width: 125px;
+        margin: 0 0 10px 10px;
+    }
+
+    .socialmedia a {
+        text-decoration: none;
+    }
 }
-
-aside h2 {
-    position: absolute;
-    top: 20px;   /* Adjust based on your image */
-    left: 50px;  /* Adjust based on your image */
-    background-color: rgba(255, 255, 255, 0.8); /* Added for readability */
-    padding: 5px;
-}
-
-aside img {
-    width: 200px;
-    height: auto;
-}
-
-footer {
-    margin-top: 15px;
-    border-top: 1px solid #000;
-    text-align: center;
-}
-
-.box {
-    margin: 1rem;
-    border: 1px solid var(--border-color);
-    padding: 1rem;
-    background-color: #ddd;
-    color: #000;
-}}
