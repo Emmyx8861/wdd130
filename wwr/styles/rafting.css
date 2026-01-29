@@ -37,6 +37,11 @@ article {
   padding: 8px;
 }
 
+nav a:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
 .socialmedia a {
   text-decoration: none;
 }
@@ -80,4 +85,12 @@ article {
   float: right;
   width: 150px;
   margin-left: 15px;
+}
+
+footer {
+  background-color: var(--secondary-color);
+  color: var(--accent1-color);
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
 }
