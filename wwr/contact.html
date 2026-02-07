@@ -23,91 +23,79 @@
             <a href="contact.html">Contact Us</a>
         </nav>
     </header>
-
+    
     <main>
-        <section class="company-heading">
-            <h1>White Water Rafting Company</h1>
-            <address>
-                123 Main River Street<br>
-                Kolob, California<br>
-                +1 999 999 9999<br>
-                info@whitewater.com
-            </address>
-        </section>
+    <section class="company-heading">
+        <h1>White Water Rafting Company</h1>
+        <address>
+            123 Main River Street<br>
+            Kolob, California<br>
+            +1 999 999 9999<br>
+            info@whitewater.com
+        </address>
+    </section>
 
-        <div class="contact-grid">
-            <div class="map-container">
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.142293761144!2d-73.98731968459391!3d40.75889497932681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480293%3A0x5117f70613988af0!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1680000000000!5m2!1sen!2sus" 
-                    width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-
-            <div class="form-container">
-                <form action="#" method="post">
-                    <div class="form-item">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="Placeholder">
-                    </div>
-                    <div class="form-item">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="Placeholder">
-                    </div>
-                    
-                    <fieldset>
-                        <legend>Message Purpose</legend>
-                        <label><input type="radio" name="purpose" value="inquiry" checked> General Inquiry</label>
-                        <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
-                        <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
-                    </fieldset>
-
-                    <div class="form-item">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" placeholder="Type here"></textarea>
-                    </div>
-
-                    <div class="checkbox-item">
-                        <label>
-                            <input type="checkbox" name="newsletter" checked> Please subscribe me to the monthly newsletter
-                        </label>
-                    </div>
-
-                    <button type="submit">Get in Touch!</button>
-                </form>
-            </div>
+    <div class="contact-grid">
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=placeholder" width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
         </div>
 
-        <section class="employee-section">
-            <h2>We Are Here to Serve You</h2>
-            <div class="employee-grid">
-                <figure>
-                    <img src="images/employee1.jpg" alt="Employee 1 Profile">
-                    <figcaption>Jane Taylor</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/employee2.jpg" alt="Employee 2 Profile">
-                    <figcaption>Anna Sapphire</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/employee3.jpg" alt="Employee 3 Profile">
-                    <figcaption>Emerald Jasper</figcaption>
-                </figure>
-            </div>
-        </section>
-    </main>
+        <div class="form-container">
+            <form action="#" method="post">
+                <div class="form-item">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
 
-    <footer>
-        <p>&copy; 2026 Whitewater Rafting Co. | Adewemimo Emmanuel</p>
-        <nav class="socialmedia">
-            <a href="https://facebook.com" target="_blank">
-                <img src="images/facebook-icon.png" alt="Facebook logo">
-            </a>
-            <a href="https://twitter.com" target="_blank">
-                <img src="images/twitter-icon.png" alt="Twitter logo">
-            </a>
-            <a href="https://instagram.com" target="_blank">
-                <img src="images/instagram-icon.jpg" alt="Instagram logo">
-            </a>
-        </nav>
-    </footer>
-</body>
-</html>
+                <div class="form-item">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <fieldset>
+                    <legend>Message Purpose</legend>
+                    <label for="general">
+                        <input type="radio" id="general" name="purpose" value="inquiry" checked> General Inquiry
+                    </label>
+                    <label for="reservation">
+                        <input type="radio" id="reservation" name="purpose" value="reservation"> Reservation Question
+                    </label>
+                    <label for="suggestion">
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion"> Website Suggestion
+                    </label>
+                </fieldset>
+
+                <div class="form-item">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </div>
+
+                <div class="checkbox-item">
+                    <label for="newsletter">
+                        <input type="checkbox" id="newsletter" name="newsletter"> Please subscribe me to the monthly newsletter
+                    </label>
+                </div>
+
+                <button type="submit">Send Adventure Request</button>
+            </form>
+        </div>
+    </div>
+
+    <section class="employee-section">
+        <h2>We Are Here to Serve You</h2>
+        <div class="employee-grid">
+            <figure>
+                <img src="images/employee1.jpg" alt="Jane Taylor">
+                <figcaption>Jane Taylor - CEO</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee2.jpg" alt="Anna Sapphire">
+                <figcaption>Anna Sapphire - Lead Guide</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee3.jpg" alt="Emerald Jasper">
+                <figcaption>Emerald Jasper - Logistics</figcaption>
+            </figure>
+        </div>
+    </section>
+</main>
